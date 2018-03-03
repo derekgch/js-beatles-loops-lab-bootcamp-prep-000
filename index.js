@@ -21,5 +21,11 @@ function johnLennonFacts(facts){
 
 
 function iLoveTheBeatles(n){
+  var temp =[];
+  var i =0;
+  do{
+    temp.push("I love the Beatles!")
+    i++
+  }while(n<15 && i< n)
 
 }
