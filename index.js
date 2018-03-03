@@ -27,5 +27,6 @@ function iLoveTheBeatles(n){
     temp.push("I love the Beatles!")
     i++
   }while(n<15 && i< n)
+  return temp
 
 }
