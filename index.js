@@ -4,7 +4,7 @@ function theBeatlesPlay(musicians, instruments){
 
   for( var i= 1; i < musicians.lengh+1; i++){
     temp1= musicians[i] + instruments[i]
-    temp.push( temp1 )
+    temp.push( musicians[i] )
   }
   return temp
 
